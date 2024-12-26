@@ -16,7 +16,7 @@ const HomeComponent = () => {
   const handleDoubleClick = () => {
     setTurning(true);
     setTimeout(() => {
-      // navigate("/flip"); // Redirect after animation is complete
+      navigate("/flip"); // Redirect after animation is complete
     }, 1000); // Match the duration of the page-turn animation
   };
 
